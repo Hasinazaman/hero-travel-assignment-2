@@ -1,0 +1,61 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* newsletter styles start */
+
+
+
+
+
+
+/* newsletter styles end */
+
+
+
+/* footer section styles start */
+#footer-container{
+    background: rgba(19, 19, 24, 0.05);
+   
+   
+}
+.footer-header{
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.footer-header h1{
+    color:#131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-header span{
+    color: #FF5400;
+}
+.footer-image{
+    padding: 1rem;
+}
+hr{
+    background: rgba(19, 19, 24, 0.10);
+    width: 50%;
+    height: 1px;
+    margin: 0 auto;
+}
+.paragraph{
+    color: #5A5A5D;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* footer section styles end */
