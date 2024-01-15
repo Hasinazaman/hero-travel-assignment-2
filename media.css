@@ -1,0 +1,39 @@
+@media screen and (max-width:600px) {
+    .newsletter-container{
+        flex-direction: column;
+        width: 100%;   
+    }
+    .newsletter-text{
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .newsletter-image img{
+        object-fit: cover;
+        width: 90%;
+        margin: 0 auto;
+     }
+     .newsletter-image{
+        position: relative;
+    }
+    
+    .travel{
+        transform: rotate(-28.62deg);
+        position: absolute;
+        right: 30px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .travel p{
+        font-size: 15px;
+    }
+    .travel h3{
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+
+
+}
