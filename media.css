@@ -1,4 +1,29 @@
 @media screen and (max-width:600px) {
+    
+/* our popular start */
+
+.our-popular-container{
+   flex-direction: column; 
+}
+.list{
+    padding: 1rem;
+}
+.our-popular-image{
+    width: 100%;
+    margin: 0 auto;
+}
+.our-popular-text{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* our popular end */
+
+
+
+/* newsletter start */
+
     .newsletter-container{
         flex-direction: column;
         width: 100%;   
@@ -34,6 +59,7 @@
         font-weight: 800;
     }
 
+    /* newsletter end */
 
 
 }
