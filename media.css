@@ -1,4 +1,18 @@
 @media screen and (max-width:600px) {
+
+    /* why choose us media style start */
+
+    .why-choose-title{
+        font-size:2rem;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card-design{
+        width: 90%;
+    }
+   
+    /* why choose us media style end */
     
 /* our popular start */
 
