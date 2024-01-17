@@ -1,6 +1,9 @@
 /* mulish font here apply this project */
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
 /* common styles here start */
+
+*{border:1px solid red;}
+body{border: 2px dashed blue;}
 *{
     font-family: 'Mulish', sans-serif;
     margin: 0;
@@ -98,6 +101,13 @@
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
     padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+.button-container #when{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    padding: 0.8rem 2rem;
     border-radius: 8px;
     border: none;
 }
@@ -305,9 +315,13 @@
 }
 .all-image img{
     width: 100%;
+    min-height: 400px;
+    object-fit: cover;
 }
-.deals-image{
-   width: 100%;
+.deals-image-container{
+    display: flex;
+    flex-direction: column;
+  
 }
 .deals-img-1{
     margin: 1rem 0;
@@ -343,11 +357,6 @@
 .night{
     display: flex;
 }
-.day img{
-    width: 24px;
-    height: 24px;
-}
-
 .deals-img-2{
     margin: 1rem 0;
     position: relative;

@@ -105,16 +105,17 @@
     .deals-container{
         width: 90%;
     }
-    .deals-img-1{
+    .deals-img-1{ 
+        flex-direction: column;
         position: relative;
     }
-    .tour-card-1{
+    .tour-card-1,.tour-card-2,.tour-card-3{
         position: absolute;
-        top: 1rem;
-        right: 2.5rem;
-        width: 335px;
-        height: 500px;
-        padding: 0.5rem;
+        top: 6rem;
+        right: 3rem;
+        width: 400px;
+        height: 280px;
+        padding: 1rem;
       
     }
     .card-head{
@@ -126,12 +127,11 @@
     }
     .day{
         display: flex;
-    
         gap: 0rem;
     }
     .day img{
-        width: 14px;
-        height: 14px;
+        width: px;
+        height: px;
     }
     .red-button{
         font-size: 14px;
